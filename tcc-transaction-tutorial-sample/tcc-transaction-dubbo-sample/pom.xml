@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>tcc-transaction-tutorial-sample</artifactId>
         <groupId>org.mengyun</groupId>
@@ -17,6 +15,8 @@
         <module>tcc-transaction-dubbo-order</module>
         <module>tcc-transaction-dubbo-redpacket</module>
         <module>tcc-transaction-dubbo-redpacket-api</module>
-    </modules>
+    <module>tcc-transaction-dubbo-capital-main</module>
+    <module>tcc-transaction-dubbo-redpacket-main</module>
+  </modules>
 
 </project>

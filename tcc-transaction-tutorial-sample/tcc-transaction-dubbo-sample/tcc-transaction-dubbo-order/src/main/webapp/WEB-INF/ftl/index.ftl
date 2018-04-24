@@ -35,7 +35,7 @@
     <br/>
     &nbsp;&nbsp;&nbsp;&nbsp; red packet confirm record called
     <p/>
-    <a href="/user/2000/shop/1">
+    <a href="tcc-transaction-dubbo-order/user/2000/shop/1">
         商品列表链接
     </a>
 </div>

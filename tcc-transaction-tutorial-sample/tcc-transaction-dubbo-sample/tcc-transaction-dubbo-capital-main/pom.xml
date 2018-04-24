@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.mengyun</groupId>
+    <artifactId>tcc-transaction-dubbo-sample</artifactId>
+    <version>1.2.4.20</version>
+  </parent>
+  <groupId>org.mengyun</groupId>
+  <artifactId>tcc-transaction-dubbo-capital-main</artifactId>
+  <version>1.2.4.20</version>
+  <name>tcc-transaction-dubbo-capital-main</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+   <dependencies>
+        <dependency>
+            <groupId>org.mengyun</groupId>
+            <artifactId>tcc-transaction-dubbo-capital-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mengyun</groupId>
+            <artifactId>tcc-transaction-sample-captial</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mengyun</groupId>
+            <artifactId>tcc-transaction-dubbo</artifactId>
+           <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mengyun</groupId>
+            <artifactId>tcc-transaction-spring</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.101tec</groupId>
+            <artifactId>zkclient</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+
+
+    </dependencies>
+</project>
